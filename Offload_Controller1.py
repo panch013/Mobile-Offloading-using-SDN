@@ -33,7 +33,6 @@ from pox.lib.util import dpidToStr
 import pox.openflow.libopenflow_01 as of
 from pox.lib.addresses import IPAddr, IP_ANY, IP_BROADCAST
 
-# Even a simple usage of the logger is much nicer than print!
 log = core.getLogger()
 
 s1_dpid = 0
